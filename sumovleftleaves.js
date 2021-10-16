@@ -8,8 +8,8 @@ let traverse = (node, isLeft) => {
 	}
 
 	/*
-1.	  if node is a leaf node, then check if it's the left child since we only want to sum up left leaf node values
-2.	  if it's a right leaf node, return 0 so it wont impact the total sum.
+1.  if node is a leaf node, then check if it's the left child since we only want to sum up left leaf node values
+2.  if it's a right leaf node, return 0 so it wont impact the total sum.
 	 */
 	if(node.left == null && node.right == null) {
 		if(isLeft) {
