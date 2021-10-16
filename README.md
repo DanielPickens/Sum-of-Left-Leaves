@@ -1,5 +1,5 @@
 # Sum-of-Left-Leaves
-My recursive javascript solution that's faster than 92%
+My javascript solution that's faster than 92%
 
 
 "Given the root of a binary tree, return the sum of all left leaves.
